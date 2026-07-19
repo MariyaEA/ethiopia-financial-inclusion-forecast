@@ -1,0 +1,20 @@
+record_type,count,dimension,pillar,source_type,confidence
+observation,35,record_type,,,
+impact_link,16,record_type,,,
+event,11,record_type,,,
+target,3,record_type,,,
+,23,pillar,ACCESS,,
+,21,pillar,USAGE,,
+,11,pillar,(blank / event-neutral),,
+,6,pillar,GENDER,,
+,4,pillar,AFFORDABILITY,,
+,15,source_type,,operator,
+,14,source_type,,(missing),
+,13,source_type,,survey,
+,8,source_type,,regulator,
+,7,source_type,,policy,
+,4,source_type,,research,
+,2,source_type,,calculated,
+,2,source_type,,news,
+,47,confidence,,,high
+,18,confidence,,,medium
