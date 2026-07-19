@@ -1,0 +1,24 @@
+indicator_code,indicator,observations,first_year,last_year,unique_years,confidence_modes
+ACC_MM_REGISTERED,Registered Mobile Money Accounts,1,2024,2024,1,high
+ACC_MOBILE_PEN,Mobile Subscription Penetration,1,2025,2025,1,high
+AFF_DATA_INCOME,Data Affordability Index,1,2024,2024,1,medium
+GEN_GAP_MOBILE,Mobile Phone Gender Gap,1,2024,2024,1,high
+GEN_MM_SHARE,Female Mobile Money Account Share,1,2024,2024,1,high
+USG_ACTIVE_RATE,Mobile Money Activity Rate,1,2024,2024,1,high
+USG_ATM_COUNT,ATM Transaction Count,1,2025,2025,1,high
+USG_ATM_VALUE,ATM Transaction Value,1,2025,2025,1,high
+USG_CROSSOVER,P2P/ATM Crossover Ratio,1,2025,2025,1,high
+USG_DIGITAL_PAYMENT,Made or Received a Digital Payment,1,2024,2024,1,medium
+USG_MM_ACTIVE_SHARE,Active Mobile Money Account Share,1,2025,2025,1,medium
+USG_MPESA_ACTIVE,M-Pesa 90-Day Active Users,1,2024,2024,1,high
+USG_MPESA_USERS,M-Pesa Registered Users,1,2024,2024,1,high
+USG_P2P_VALUE,P2P Transaction Value,1,2025,2025,1,high
+USG_TELEBIRR_USERS,Telebirr Registered Users,1,2025,2025,1,high
+USG_TELEBIRR_VALUE,Telebirr Transaction Value,1,2025,2025,1,high
+USG_WAGES_ACCOUNT,Used Account to Receive Wages,1,2024,2024,1,medium
+ACC_4G_COV,4G Population Coverage,2,2023,2025,2,high
+ACC_FAYDA,Fayda Digital ID Enrollment,3,2024,2025,2,high
+ACC_MM_ACCOUNT,Mobile Money Account Rate,2,2021,2024,2,high
+GEN_GAP_ACC,Account Ownership Gender Gap,2,2021,2024,2,"high, medium"
+USG_P2P_COUNT,P2P Transaction Count,2,2024,2025,2,high
+ACC_OWNERSHIP,Account Ownership Rate,7,2011,2024,5,high
