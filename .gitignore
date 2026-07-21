@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Large/local artifacts
+*.log
+*.tmp
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.onnx
+
+# Keep repository data, but ignore ad-hoc downloads
+data/external/
