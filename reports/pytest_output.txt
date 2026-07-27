@@ -1,39 +1,4 @@
-.......................FF.....                                           [100%]
-=================================== FAILURES ===================================
-_________________________________ test_schema __________________________________
-
-    def test_schema():
->       d = load_unified_data(ROOT / "data/raw/ethiopia_fi_unified_data.csv")
-
-tests/test_project.py:10: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-path = PosixPath('/Users/mariya/Documents/10 Academy/ethiopia-fi-forecast-interim/data/raw/ethiopia_fi_unified_data.csv')
-
-    def load_unified_data(path):
-        p = Path(path)
-        if not p.exists():
->           raise FileNotFoundError(f"Dataset not found: {p}")
-E           FileNotFoundError: Dataset not found: /Users/mariya/Documents/10 Academy/ethiopia-fi-forecast-interim/data/raw/ethiopia_fi_unified_data.csv
-
-src/data_loader.py:20: FileNotFoundError
-________________________________ test_forecast _________________________________
-
-    def test_forecast():
->       r = split_records(load_unified_data(ROOT / "data/raw/ethiopia_fi_unified_data.csv"))
-
-tests/test_project.py:16: 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-path = PosixPath('/Users/mariya/Documents/10 Academy/ethiopia-fi-forecast-interim/data/raw/ethiopia_fi_unified_data.csv')
-
-    def load_unified_data(path):
-        p = Path(path)
-        if not p.exists():
->           raise FileNotFoundError(f"Dataset not found: {p}")
-E           FileNotFoundError: Dataset not found: /Users/mariya/Documents/10 Academy/ethiopia-fi-forecast-interim/data/raw/ethiopia_fi_unified_data.csv
-
-src/data_loader.py:20: FileNotFoundError
+............................                                             [100%]
 
 --------- coverage: platform darwin, python 3.11.15-final-0 ----------
 Name                           Stmts   Miss  Cover   Missing
@@ -49,7 +14,4 @@ src/fi_forecast/quality.py        67      3    96%   91, 102, 124
 TOTAL                            250     19    92%
 
 Required test coverage of 85% reached. Total coverage: 92.40%
-=========================== short test summary info ============================
-FAILED tests/test_project.py::test_schema - FileNotFoundError: Dataset not fo...
-FAILED tests/test_project.py::test_forecast - FileNotFoundError: Dataset not ...
-2 failed, 28 passed in 0.10s
+28 passed in 0.10s
