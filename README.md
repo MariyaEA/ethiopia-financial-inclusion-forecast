@@ -58,7 +58,7 @@ The model intentionally favors explainability over complexity. With only five of
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ethiopia-financial-inclusion-forecast.git
+git clone https://github.com/MariyaEA/ethiopia-financial-inclusion-forecast.git
 cd ethiopia-financial-inclusion-forecast
 python -m venv .venv
 source .venv/bin/activate       # Windows: .venv\Scripts\activate
