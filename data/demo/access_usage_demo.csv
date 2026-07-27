@@ -1,0 +1,15 @@
+record_id,record_type,pillar,indicator,indicator_code,value_numeric,observation_date,source_name,source_url,confidence,category,parent_id,related_indicator,impact_direction,impact_magnitude,lag_months,evidence_basis,notes
+OBS_ACC_2011,observation,Access,Account ownership rate,ACC_OWNERSHIP,14,2011-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Official Access trajectory used in the Week 11 challenge
+OBS_ACC_2014,observation,Access,Account ownership rate,ACC_OWNERSHIP,22,2014-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Official Access trajectory used in the Week 11 challenge
+OBS_ACC_2017,observation,Access,Account ownership rate,ACC_OWNERSHIP,35,2017-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Official Access trajectory used in the Week 11 challenge
+OBS_ACC_2021,observation,Access,Account ownership rate,ACC_OWNERSHIP,46,2021-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Official Access trajectory used in the Week 11 challenge
+OBS_ACC_2024,observation,Access,Account ownership rate,ACC_OWNERSHIP,49,2024-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Official Access trajectory used in the Week 11 challenge
+OBS_USG_2024,observation,Usage,Made or received digital payment,USG_DIGITAL_PAYMENT,35,2024-12-31,World Bank Global Findex,documented-in-week11-source-log,medium,,,,,,,,Approximate Usage value documented in Week 11 materials
+OBS_MM_2021,observation,Access,Mobile money account ownership,ACC_MM_ACCOUNT,4.7,2021-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Demand-side mobile money account ownership
+OBS_MM_2024,observation,Access,Mobile money account ownership,ACC_MM_ACCOUNT,9.45,2024-12-31,World Bank Global Findex,documented-in-week11-source-log,high,,,,,,,,Demand-side mobile money account ownership
+OBS_4G_2021,observation,Infrastructure,4G population coverage,INF_4G_COVERAGE,37.5,2021-12-31,Telecommunications observation,documented-in-week11-source-log,medium,,,,,,,,Infrastructure enabler
+OBS_4G_2024,observation,Infrastructure,4G population coverage,INF_4G_COVERAGE,70.8,2024-12-31,Telecommunications observation,documented-in-week11-source-log,medium,,,,,,,,Infrastructure enabler
+EVT_TELEBIRR_2021,event,,Telebirr launch,,,2021-05-01,Ethio Telecom,documented-in-week11-source-log,high,product_launch,,,,,,,Event remains pillar-neutral
+EVT_MPESA_2023,event,,M-Pesa market entry,,,2023-08-01,Safaricom Ethiopia,documented-in-week11-source-log,high,market_entry,,,,,,,Event remains pillar-neutral
+LNK_TELEBIRR_MM,impact_link,Access,Telebirr association with mobile money ownership,ACC_MM_ACCOUNT,,2021-05-01,Week 11 impact model,documented-in-week11-source-log,medium,,EVT_TELEBIRR_2021,ACC_MM_ACCOUNT,positive,moderate,12,Transparent association hypothesis,Not a causal estimate
+TARGET_ACC_2025,target,Access,Financial inclusion target,ACC_OWNERSHIP,60,2025-12-31,National strategy target,documented-in-week11-source-log,high,,,,,,,,Target used for progress display

@@ -1,0 +1,9 @@
+               check severity  count                              message
+    Required columns     PASS      0     All minimum columns are present.
+        Record types     PASS      0          All record types are valid.
+Duplicate record IDs     PASS      0               Record IDs are unique.
+   Observation dates     PASS      0     Observation dates are parseable.
+   Percentage ranges     PASS      0 Percentage values are within bounds.
+     Source evidence     PASS      0  Observation sources are documented.
+
+Publication decision: PASS
