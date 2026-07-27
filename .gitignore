@@ -1,30 +1,40 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
 .pytest_cache/
-.ipynb_checkpoints/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Environments and secrets
+# Virtual environments
 .venv/
 venv/
 env/
-.env
-.env.*
-*.pem
-*.key
+
+# Notebooks
+.ipynb_checkpoints/
 
 # Editors and OS
-.DS_Store
 .vscode/
 .idea/
+.DS_Store
 
-# Large/local artifacts
+# Streamlit
+.streamlit/secrets.toml
+
+# Local outputs
+artifacts/
+logs/
 *.log
-*.tmp
+
+# Large/private data and models
 models/*.pkl
 models/*.joblib
-models/*.h5
-models/*.onnx
-
-# Keep repository data, but ignore ad-hoc downloads
+data/private/
 data/external/
+
+# Environment variables
+.env
+.env.*
+!.env.example
